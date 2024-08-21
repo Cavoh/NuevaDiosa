@@ -3712,3 +3712,35 @@ iframe {border: none;}
 .pointer-none {
 	pointer-events: none;
 }
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+.whatsapp-container {
+	position: fixed;
+	bottom: 35px;
+	right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #7CFC00; /* Color verde manzana */
+	padding: 5px 5px;
+	border-radius: 25px;
+	max-width: 300px; /* Ajusta el tamaño máximo del rectángulo si es necesario */
+	font-family: Arial, sans-serif;
+	color: white;
+	font-weight: bold;
+	text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.whatsapp-text {
+	margin-right: 10px;
+}
+
+.whatsapp-icon img {
+	width: 54px; /* Tamaño del ícono ajustado a 54px */
+	height: 54px; /* Tamaño del ícono ajustado a 54px */
+}
