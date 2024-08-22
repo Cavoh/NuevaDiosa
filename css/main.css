@@ -325,11 +325,19 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   align-items: left;
   height: 450%;
   margin-top: 140px;
+  /* background-color: #FF00FF; */ /* Comentado para no aplicar color de fondo fucsia */
+  text-decoration: none; /* Elimina el subrayado del enlace */
 }
 
 .logo img {
-  max-width: 70%;
-  max-height: 70%;
+  max-width: 150%;
+  max-height: 150%;
+}
+
+.logo span { /* Aplicar color fucsia al texto del logo */
+  color: #FF00FF; /* Color fucsia para el texto */
+  display: block; /* Para que el span ocupe todo el espacio disponible */
+  margin-top: 10px; /* Ajusta el margen si es necesario */
 }
 
 
